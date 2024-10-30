@@ -1,0 +1,133 @@
+.our-cover {
+    background-color: #efc110;
+    position: relative;
+    width: 100%;
+    margin-bottom:50px;
+    float: left;
+}
+#particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.our-cover section.container {
+    margin: 0 auto;
+    width: 95%;
+}
+.our-cover section.container .content-container {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 10px 0;
+}
+.our-cover .content {
+    text-align: center;
+}
+.our-cover .content .content-header {
+    color: #472160;
+    font-size: 24px;
+    font-weight: 800;
+    float: left;
+    width: 70%;
+    padding: 12px 0;
+}
+.our-cover .content img {
+    float: left;
+    width: 15%;
+}
+.our-cover .content .btn.our-action-btn {
+    float: right;
+    width: 15%;
+    color: #fff;
+    padding: 12px 0;
+    border-color: #472061;
+    background: #472061;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+.our-cover .actions a:hover {
+    border-color: #fff;
+    background: transparent;
+}
+table.table {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+}
+table.table thead {
+    width: 100%;
+}
+table.table thead th {
+    background: #fff;
+    padding: 15px;
+}
+table.table tbody tr:nth-child(odd) td{
+    background: #ddd;
+    padding: 15px;
+    border-top: 1px solid #dcdcdc;
+}
+table.table tbody tr:nth-child(even) td{
+    background: #fff;
+    padding: 15px;
+    border-top: 1px solid #dcdcdc;
+}
+.vwms-btn{
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.vwms-btn.btn-vwms-default{
+    background-color: #472260;
+    color: #FFDE00;
+}
+.pull-right{
+    float: right;
+}
+.mb-1{
+    margin-bottom: 1%; 
+}
+.vwms .card {
+    max-width:40%;
+    margin: 0 auto;
+}
+.vwms .card .card-title {
+    text-align: center;
+    color: #472160;
+    font-size: 28px;
+    font-weight: 100;
+}
+.clock-addon {
+    padding: 8px 0px;
+}
+div#map_canvas {
+    height: 350px;
+}
+.pagination{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.pagination .total-pages {
+    float: left;
+}
+.pagination .page-numbers {
+    background: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+}
+.pagination .page-numbers.current {
+    background:#472360;
+    color:#FFDE00;
+}
